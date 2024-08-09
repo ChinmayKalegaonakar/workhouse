@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: workhorse
+  banner:
+    location: banner.txt
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/workhouse
+  mvc:
+    servlet:
+      path: /v1
+
+server:
+  port: 8080
