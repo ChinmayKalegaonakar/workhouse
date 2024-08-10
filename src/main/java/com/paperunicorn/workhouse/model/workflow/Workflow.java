@@ -1,4 +1,4 @@
-package com.paperunicorn.workhouse.model;
+package com.paperunicorn.workhouse.model.workflow;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

@@ -1,6 +1,6 @@
 package com.paperunicorn.workhouse.service.executor;
 
-import com.paperunicorn.workhouse.model.StepAction;
+import com.paperunicorn.workhouse.model.workflow.StepAction;
 import org.springframework.stereotype.Service;
 
 @Service

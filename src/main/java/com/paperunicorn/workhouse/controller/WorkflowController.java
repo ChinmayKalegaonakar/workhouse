@@ -1,7 +1,7 @@
 package com.paperunicorn.workhouse.controller;
 
 
-import com.paperunicorn.workhouse.model.Workflow;
+import com.paperunicorn.workhouse.model.workflow.Workflow;
 import com.paperunicorn.workhouse.repository.WorkflowRepository;
 import com.paperunicorn.workhouse.service.WorkflowService;
 import org.springframework.beans.factory.annotation.Autowired;
