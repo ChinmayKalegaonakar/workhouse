@@ -1,5 +1,5 @@
 package com.paperunicorn.workhouse.model.executor;
 
-public enum StepExecutorType {
+public enum StepConfigurationType {
     DB, API, BATCH, SIMPLE, COMPLEX
 }

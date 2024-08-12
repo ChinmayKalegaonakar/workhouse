@@ -1,23 +1,19 @@
-package com.paperunicorn.workhouse.model.workflow;
+package com.paperunicorn.workhouse.model.executor;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-import java.util.List;
-
 @Data
 @Document
-public class WorkflowStep {
-
+public class StepConfiguration {
     @Id
     private String id;
 
     @Field
-    private String name;
+    private String stepActionId;
 
     @Field
-    private List<StepAction> stepActions;
-
+    private StepConfigurationType type;
 }

@@ -1,10 +1,9 @@
 package com.paperunicorn.workhouse.model.workflow;
 
-import com.paperunicorn.workhouse.model.executor.StepExecutor;
+import com.paperunicorn.workhouse.model.executor.StepConfiguration;
 import lombok.Data;
 
-@Data
+@Data //delete??
 public class WrappedStep {
     private StepAction stepAction;
-    private StepExecutor stepExecutor;
 }
