@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 @Data
 @Document
 public class StepConfiguration {
+
     @Id
     private String id;
 

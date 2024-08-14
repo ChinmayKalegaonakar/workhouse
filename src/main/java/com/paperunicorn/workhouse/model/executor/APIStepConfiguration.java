@@ -8,7 +8,6 @@ import java.util.Map;
 
 @Data
 public class APIStepConfiguration extends StepConfiguration {
-    private String stepActionId;
     private String url;
     private Map<String, String> headers;
     private HttpMethod httpMethod;

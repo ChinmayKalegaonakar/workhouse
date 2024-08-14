@@ -5,11 +5,9 @@ import com.paperunicorn.workhouse.model.executor.StepConfiguration;
 import com.paperunicorn.workhouse.model.executor.StepConfigurationType;
 import com.paperunicorn.workhouse.model.workflow.StepAction;
 import com.paperunicorn.workhouse.model.workflow.StepActionInput;
-import com.paperunicorn.workhouse.model.rest.RestCallerDetails;
 import com.paperunicorn.workhouse.repository.StepActionRepository;
 import com.paperunicorn.workhouse.repository.StepConfigurationRepository;
 import com.paperunicorn.workhouse.service.rest.ExecutorTemplate;
-import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
